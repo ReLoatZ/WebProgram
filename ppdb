@@ -1,0 +1,138 @@
+<html>
+<head>
+	<title>Form PPDB SMAN 1 Payung</title>
+</head>
+<body bgcolor="green">
+<form action="ppdb_output.php" method="post">
+<table align="center">
+
+<tr>
+<td colspan="5" align="center"><img src="sman1.jpg" height="150" width="450"></td>
+</tr>
+
+<tr>
+<td><font color="limegreen">Nomor Pendaftar</font></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;<input type="text" name="nomor" placeholder="Kosongkan"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;<font color="limegreen"><sup>Diisi panitia pada saat validasi data</sup></font></td>
+</tr>
+
+<tr>
+<td colspan="5"><font color="greenyellow">A. IDENTITAS CALON PESERTA DIDIK</td>
+</tr>
+
+<tr>
+<td><font color="limegreen">Nama Lengkap</font><font color="red"><sup>*</sup></font></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;<input type="text" name="nama" size="60"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;<font color="limegreen"><sup>Tulis nama lengkap sesuai ijazah SMP/MTS</sup></font></td>
+</tr>
+
+<tr>
+<td><font color="limegreen">Jenis Kelamin</font><font color="red"><sup>*</sup></font></td>
+<td></td>
+<td>&emsp;&emsp;&emsp;&emsp;<input type="radio" name="jenkel" value="Laki-laki">Laki-laki</td>
+<td colspan="2">&emsp;&emsp;&emsp;&emsp;
+<input type="radio" name="jenkel" value="Perempuan">Perempuan</td>
+</tr>
+
+<tr>
+<td><font color="limegreen">NISN</font></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;<input type="text" maxlength="10" name="nisn" placeholder="contoh : 9996910688"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;<font color="limegreen"><sup>isi 10 digit angka NISN</sup></font></td>
+</tr>
+
+<tr>
+<td><font color="limegreen">NIK</font></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;<input type="text" maxlength="16" name="nik" placeholder="contoh : 33280322059900"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;<font color="limegreen"><sup>isi 16 digit angka NIK (bisa dilihat di KK)</sup></font></td>
+</tr>
+
+<tr>
+<td><font color="limegreen">Tempat Lahir</font><font color="red"><sup>*</sup></font></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;<input type="text" name="tmpt"></td>
+</tr>
+<tr>
+<td><font color="limegreen">Tanggal Lahir</font><font color="red"><sup>*</sup></font></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;<input type="text" name="tanggal" placeholder="10">&emsp;<input type="text" name="bulan" placeholder="agustus">&emsp;<input type="text" name="tahun" placeholder="2001"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;
+<font color="limegreen"><sup>tanggal</sup></font>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<font color="limegreen"><sup>bulan</sup></font>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<font color="limegreen"><sup>tahun</sup></font></td>
+</tr>
+
+<tr>
+<td><font color="limegreen">Agama</font><font color="red"><sup>*</sup></font></td>
+<td></td>
+<td>&emsp;&emsp;&emsp;&emsp;<input type="radio" name="agama" value="Islam">Islam</td>
+<td>&emsp;&emsp;&emsp;&emsp;<input type="radio" name="agama" value="Budha">Budha</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>&emsp;&emsp;&emsp;&emsp;<input type="radio" name="agama" value="Kristen">Kristen</td>
+<td>&emsp;&emsp;&emsp;&emsp;<input type="radio" name="agama" value="Katolik">Katolik</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>&emsp;&emsp;&emsp;&emsp;<input type="radio" name="agama" value="Hindu">Hindu</td>
+<td>&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="agama" placeholder="Other" size="5"></td>
+</tr>
+
+<tr>
+<td><font color="limegreen">Golongan Darah</font></td>
+<td></td>
+<td>&emsp;&emsp;&emsp;&emsp;<input type="radio" name="goldar" value="A">A &emsp;&emsp;&emsp;
+<input type="radio" name="goldar" value="B">B</td>
+<td><input type="radio" name="goldar" value="AB">AB&emsp;&emsp;&emsp;
+<input type="radio" name="goldar" value="O">O</td>
+</tr>
+
+<tr>
+<td><font color="limegreen">Alamat Rumah</font><font color="red>"<sup>*</sup></font></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;<textarea rows="3" cols="40" name="alamat"></textarea></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td colspan="3">&emsp;&emsp;&emsp;&emsp;<font color="limegreen"><sup>isi alamat lengkap</sup></font></td>
+</tr>
+
+<tr>
+<td colspan="5"><input type="submit" name="daftar" value="Daftar" style="width:150"></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
